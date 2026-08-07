@@ -1,7 +1,12 @@
 import argparse
 
+
 def main():
-    p=argparse.ArgumentParser(description="Professional AI Book Image Enhancement Suite")
-    p.add_argument("--config",default="config.yaml")
-    a=p.parse_args()
-    print("Using config:",a.config)
+    parser = argparse.ArgumentParser(description="Professional AI Book Image Enhancement Suite")
+    parser.add_argument("--config", default="config.yaml")
+    args = parser.parse_args()
+    print("Using config:", args.config)
+
+
+if __name__ == "__main__":
+    main()
