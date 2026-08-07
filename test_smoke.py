@@ -1,2 +1,5 @@
+import main
+
+
 def test_import():
-    import main
+    assert hasattr(main, "main")
