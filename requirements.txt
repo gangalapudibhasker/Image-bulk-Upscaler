@@ -1,4 +1,3 @@
-# requirements.txt
 pymupdf
 Pillow
 opencv-python
@@ -7,3 +6,6 @@ tqdm
 img2pdf
 pyyaml
 pandas
+pytest
+pytest-cov
+flake8
