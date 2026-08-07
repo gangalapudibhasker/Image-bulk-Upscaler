@@ -1,0 +1,7 @@
+# requirements-ai.txt
+torch
+torchvision
+basicsr
+realesrgan
+gfpgan
+gradio
