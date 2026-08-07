@@ -1,3 +1,3 @@
-# Phase 1 - Step 1
+# Professional AI Book Image Enhancement Suite
 
-Next: PDF to Images engine.
+Phase 1.5 scaffold.
