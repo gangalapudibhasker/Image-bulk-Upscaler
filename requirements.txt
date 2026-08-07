@@ -1,0 +1,14 @@
+pymupdf>=1.26
+Pillow>=11.0
+opencv-python>=4.10
+numpy>=2.0
+tqdm>=4.66
+img2pdf>=0.5
+torch
+torchvision
+basicsr
+realesrgan
+gfpgan
+gradio>=5.0
+pyyaml>=6.0
+pandas>=2.2

@@ -1,0 +1,27 @@
+project:
+  name: Professional AI Book Image Enhancement Suite
+  version: 1.0
+
+input:
+  pdf: input/book.pdf
+
+output:
+  extracted_dir: extracted
+  enhanced_dir: enhanced
+  pdf: output/enhanced_book.pdf
+  report: reports/report.csv
+
+processing:
+  dpi: 600
+  upscale_factor: 4
+  gpu: auto
+  model: RealESRGAN_x4plus
+
+enhancement:
+  sharpen: true
+  denoise: true
+  contrast: true
+  remove_white_border: true
+
+formats:
+  image: png
